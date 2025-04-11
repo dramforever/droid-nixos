@@ -8,6 +8,10 @@ NixOS VM on the Android "Terminal" app
 
 Google shipped a "Linux development environment" to Pixel devices around March 2025.
 
+> Starting with Android 15 QPR1, you can try the experimental Linux terminal app that's available on select devices. This app provides access to a Linux terminal environment within a virtual machine (VM).
+
+Source: <https://developer.android.com/about/versions/15/release-notes#linux-development-environment>
+
 It runs a Debian VM. We can replace it with NixOS with `/etc/NIXOS_LUSTRATE`. Since it's "just" an AArch64 VM it runs mainline Linux just fine.
 
 ## Screenshots
