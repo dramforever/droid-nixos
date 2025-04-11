@@ -4,6 +4,8 @@ NixOS VM on the Android "Terminal" app
 
 **Experimental project**: This thing probably doesn't work. Use at your own risk, especially risk of destroying your virtual machine.
 
+See also <https://github.com/nix-community/nixos-avf> which is probably better anyway.
+
 ## What on earth is this?
 
 Google shipped a "Linux development environment" to Pixel devices around March 2025.
