@@ -38,6 +38,8 @@ Set up `/etc/NIXOS_LUSTRATE`
 $ sudo touch /etc/NIXOS_LUSTRATE
 ```
 
+**Warning**: From this step onwards, the Debian installation will not be recoverable. If anything goes wrong you may have to turn go to developer settings and turn it off and back on to reset the app.
+
 Edit `/boot/grub/grub.cfg` to replace the `linux` and `initrd` lines in the default boot entry. For convenience, the `gengrub.sh` file generates the two lines based on the `result` symlink.
 
 ```
